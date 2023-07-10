@@ -1,0 +1,845 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height:70px;
+    background-color: #fff;
+}
+
+.nav1{
+    width: 33.33%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .sattvic{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ .bhojan{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.nav1 img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.nav2{
+    width: 36.33%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hover{
+    margin: 3%;
+   
+}
+
+.nav2 a{
+    color: black;
+    text-decoration: none;
+    margin: 2%;
+    font-family: cursive;
+}
+
+
+ .drop1{
+    position: absolute;
+    top: 7%;
+    background-color: white;
+    color: grey;
+    font-family:monospace;
+    display: none;
+    width: 170px;
+    text-align: center;
+    color: grey;
+}
+
+ .hover:hover .drop1 {
+    display: block;
+
+}
+
+
+ .drop2{
+    position: absolute;
+    background-color: white;
+    color: grey;
+    font-family:monospace;
+    top: 7%;
+    display: none;
+    width: 170px;
+    text-align: center;
+    color: grey;
+}
+
+.hover:hover .drop2 {
+    display: block;
+
+}
+
+ .drop3{
+    position: absolute;
+    background-color: white;
+    color: grey;
+    font-family:monospace;
+    top: 7%;
+    display: none;
+    width: 170px;
+    text-align: center;
+    color: grey;
+}
+
+.hover:hover .drop3 {
+    display: block;
+
+}
+
+ .drop4{
+    position: absolute;
+    background-color: white;
+    color: grey;
+    font-family:monospace;
+    top: 7%;
+    display: none;
+    width: 170px;
+    text-align: center;
+    color: grey;
+}
+
+.hover:hover .drop4 {
+    display: block;
+
+}
+
+ .drop5{
+    position: absolute;
+    background-color: white;
+    color: grey;
+    font-family:monospace;
+    top: 7%;
+    display: none;
+    width: 170px;
+    text-align: center;
+    color: grey;
+}
+
+.hover:hover .drop5 {
+    display: block;
+
+}
+
+ .drop6{
+    position: absolute;
+    background-color: white;
+    color: grey;
+    font-family:monospace;
+    top: 7%;
+    display: none;
+    width: 170px;
+    text-align: center;
+    color: grey;
+}
+
+.hover:hover .drop6 {
+    display: inline-block;
+
+}
+
+.nav2 a:hover{
+    color: rgb(238, 129, 196);
+
+}
+
+.nav3{
+    width: 33.33%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav3 img {
+    height: 20px;
+    width: 20px;
+    margin: 8%;
+    padding: 6%;
+}
+
+.lines{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:-2px;
+    margin: 2%;
+}
+
+.lines div{
+    height: 2px;
+    width: 25px;
+    margin: 4%;
+    background-color: black;
+}
+
+.lines:hover a div {
+    background-color: rgb(112, 212, 58);
+    
+}
+
+.lines_box{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    height: 100vh;
+    color: grey;
+    background-color: white;
+    width: 0%;
+    display: none;
+    text-align: center;
+    padding-top:1% ;
+    transition: all 0s;
+    right: 0%;
+}
+
+.lines_box  button{
+    height: 50px;
+    width: 90px;
+    border-radius: 10%;
+    border: none;
+    font-family: monospace;
+    font-size: 18px;
+    background-color:rgb(238, 129, 196) ;
+}
+.lines_box button:hover {
+    background-color:rgb(243, 201, 227) ;
+    
+}
+
+.lines_h:hover  .lines_box{
+    display: block;
+    width: 300px;
+}
+
+.transparent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:\\Users\\shrut\\Pictures\\Saved Pictures\\Ice_cream landingpage\\main_pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.transparent h1{
+    font-size:100px;
+    color: #fff;
+    font-family:cursive;
+    text-shadow:4px 4px 4px 4px ;
+}
+
+.transparent button{
+    color: #fff;
+    height: 60px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    border: none;
+    background-color:rgb(238, 129, 196) ;
+
+}
+
+.transparent button:hover{
+    background-color:rgb(237, 179, 215) ;
+    transform: scale(1.1);
+}
+
+.main_content{
+    background-color: #fff;
+    width: 100vw;
+    height: auto;
+}
+
+.white{
+    width: 100vw;
+    height: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+
+
+}
+
+.white .text{
+    height: 100px;
+    width: 550px;
+}
+
+.ice_pic{
+    height: 1500px;
+    width: 100vw;
+    margin: 2%;
+    position: relative;
+    background-color: #fff;
+}
+.pic_1 img{
+    position: absolute;
+    height: 600px;
+    width: 700px;
+}
+.des1{
+    position: absolute;
+    height: 600px;
+    width: 700px;
+    color: #fff;
+    background-color: rgb(246, 171, 250);
+    opacity: .7;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.des1 h3{
+    font-size: 50px;
+}
+.des1 p{
+    font-size: 25px;
+}
+.pic_1:hover img{
+    
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_1:hover .des1{
+    visibility: visible;
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_2 img{
+    position: absolute;
+    left: 48%;
+    height: 350px;
+    width: 350px;
+}
+.des2{
+    position: absolute;
+    left: 48%;
+    height: 350px;
+    width: 350px;
+    color: #fff;
+    background-color: rgb(246, 171, 250);
+    opacity: .7;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.des2 h3{
+    font-size: 50px;
+}
+.des2 p{
+    font-size: 25px;
+}
+.pic_2:hover img{
+    
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_2:hover .des2{
+    visibility: visible;
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_3 img{
+    position: absolute;
+    left: 74%;
+    height: 350px;
+    width: 350px;
+}
+.des3{
+    position: absolute;
+    left: 74%;
+    height: 350px;
+    width: 350px;
+    color: #fff;
+    background-color: rgb(246, 171, 250);
+    opacity: .7;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.des3 h3{
+    font-size: 50px;
+}
+.des3 p{
+    font-size: 25px;
+}
+.pic_3:hover img{
+    transform: scale(1.01,1.01);
+    transition:transform 1s ;
+}
+
+.pic_3:hover .des3{
+    visibility: visible;
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_4 img{
+    position: absolute;
+    top: 42%;
+    height: 400px;
+    width: 700px;
+}
+.des4{
+    position: absolute;
+    top: 42%;
+    height: 400px;
+    width: 700px;
+    color: #fff;
+    background-color: rgb(246, 171, 250);
+    opacity: .7;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.des4 h3{
+    font-size: 50px;
+}
+.des4 p{
+    font-size: 25px;
+}
+.pic_4:hover img{
+    
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_4:hover .des4{
+    visibility: visible;
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_5 img{
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    height: 664px;
+    width: 750px;
+}
+.des5{
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    height: 664px;
+    width: 750px;
+    color: #fff;
+    background-color: rgb(246, 171, 250);
+    opacity: .7;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.des5 h3{
+    font-size: 50px;
+}
+.des5 p{
+    font-size: 25px;
+}
+.pic_5:hover img{
+    
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_5:hover .des5{
+    visibility: visible;
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_6 img{
+    position: absolute;
+    top: 71%;
+    height: 400px;
+    width: 480px;
+}
+.des6{
+    position: absolute;
+    top: 71%;
+    height: 400px;
+    width: 480px;
+    color: #fff;
+    background-color: rgb(246, 171, 250);
+    opacity: .7;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.des6 h3{
+    font-size: 50px;
+}
+.des6 p{
+    font-size: 25px;
+}
+.pic_6:hover img{
+    
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_6:hover .des6{
+    visibility: visible;
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_7 img{
+    position: absolute;
+    top: 71%;
+    left: 32.5%;
+    height: 400px;
+    width: 480px;
+}
+.des7{
+    position: absolute;
+    top: 71%;
+    left: 32.5%;
+    height: 400px;
+    width: 480px;
+    color: #fff;
+    background-color: rgb(246, 171, 250);
+    opacity: .7;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.des7 h3{
+    font-size: 50px;
+}
+.des7 p{
+    font-size: 25px;
+}
+.pic_7:hover img{
+    
+    transform: scale(1.01,1.01);
+    transition:transform 1s ;
+}
+
+.pic_7:hover .des7{
+    visibility: visible;
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_8 img{
+    position: absolute;
+    top: 71%;
+    left: 65%;
+    height: 400px;
+    width: 480px;
+}
+.des8{
+    position: absolute;
+    top: 71%;
+    left: 65%;
+    height: 400px;
+    width: 480px;
+    color: #fff;
+    background-color: rgb(246, 171, 250);
+    opacity: .7;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.des8 h3{
+    font-size: 50px;
+}
+.des8 p{
+    font-size: 25px;
+}
+.pic_8:hover img{
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.pic_8:hover .des8{
+    visibility: visible;
+    transform: scale(1.01,1.01);
+    transition: transform 1s;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.description1{
+    height:180px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 18px;
+}
+.d1{
+    height: 120px;
+    width: 450px;
+}
+.d1 h2{
+    font-family: cursive;
+}
+.d1 p{
+    color: grey;
+}
+.price{
+    background-color: rgb(243, 243, 243);
+}
+
+.ge{
+    width: 380px;
+    text-align: center;
+}
+.ge h1{
+    font-family: cursive;
+}
+.ge p{
+    color: grey;
+}
+
+.price{
+    display: flex;
+    padding: 4%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gelice{
+    display: flex;
+    
+}
+
+.g1
+{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin: 2%;
+}
+
+.strip{
+    height: 200px;
+    width: 100vw;
+    font-size: larger;
+    font-style: italic;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(246, 163, 218);
+}
+
+.tones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:4% ;
+}
+
+.tdes{
+    width: 380px;
+    text-align: center;
+}
+
+.tdes h1{
+    font-family: monospace;
+}
+.tdes{
+    color: grey;
+}
+
+.tbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    width: 100vw;
+}
+.t1{
+    height: auto;
+    width: 350px;
+    text-align: center;
+}
+.t1 a img{
+    height: 350px;
+    width: 350px;
+}
+
+.t1 a h2{
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.t1 p{
+    color: grey;
+
+}
+
+.t1 :hover  img{
+    transform: scale(1.03,1.03);
+    transition: transform 1s;
+}
+
+.t1 :hover h2{
+    color: rgb(248, 169, 233);
+}
+
+.team{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    align-items: center;
+    background-color: rgb(248, 214, 240);
+}
+
+.st{
+    width: 500px;
+    text-align: center;
+    color: #fff;
+    font-size: large;
+
+}
+
+.st h1{
+    font-family: cursive;
+}
+
+.st button{
+    background-color: #fff;    
+    color: rgb(243, 161, 251);
+    height: 50px;
+    width: 120px;
+    border: none;
+    font-size: medium;
+}
+
+.footer{
+    background-color: rgb(95, 93, 93);
+    display: flex;
+    color: #fff;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    margin: 2%;
+    font-family: cursive;
+}
+.form{
+    margin: 2%;
+    height: 250px;
+    padding: 2%;
+}
+.link{
+    margin: 2%;
+    font-family: cursive;
+
+}
+.footer_img{
+    margin: 2%;
+}
+.form input{
+    background-color: rgb(95, 93, 93);
+    border: 0.3px solid #fff;
+    height: 30px;
+    margin: 5%;
+    color: #fff;
+}
+
+.form button{
+    height: 40px;
+    width: 120px;
+    background-color: rgb(255, 192, 248);
+    color: #fff;
+    border: none;
+    margin: 6%;
+}
+.form button:hover{
+    background-color: rgb(251, 202, 245);
+    
+}
+
+.link a{
+    color: #fff;
+}
+
+.link a:hover {
+    color: rgb(254, 192, 255);
+}
+.footer_img{
+    display: flex;
+    flex-direction: column;
+
+}
+.f1{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.f1 img{
+    height: 80px;
+    width: 80px;
+}
+
+
